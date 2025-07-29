@@ -1,0 +1,18 @@
+h1{
+    text-shadow: 2px 2px 2px rgb(39, 37, 37),5px 5px 5px red;
+} /*1st one is for horizontal shadowing and 2nd one is for vertical shadowing and 3rd one is for blur effect and last is for color after comma we use for multiple shadowing*/
+
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: bisque;
+    box-shadow: -5px -5px 5px ,10px 10px 10px green;
+    
+}
+.box1{
+    height: 300px;
+    width: 300px;;
+    background-color: rgb(227, 137, 27);
+    margin-top: 30px;
+    box-shadow: 0px 0px 0px 2px red ,5px 5px 25px black;
+}/* making border and shadow together
