@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background: rgb(170, 226, 217);
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.box{
+    height: 600px;
+    width: 400px;
+    background-color: white;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+
+}
+.box img{
+    height: 30%;
+    width: 100%;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+.text{
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: larger;
+    font-weight: 500;
+    text-align: center;
+}
+.payment{
+    height: 9%;
+    width: 85%;
+    background-color: rgba(197, 223, 224, 0.725);
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn{
+    padding: 13px 80px;
+    font-size:1em;
+    font-weight: 600;
+    background-color: rgb(15, 43, 94);
+    color: white;
+    border-radius: 12px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+
+}
+.cancel{
+    text-decoration: none;
+    font-size: large;
+    font-weight: 600;
+}
+#leftBox{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+#leftBox img{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+#rightBox a{
+    margin-right: 10px;
+    text-decoration: none;
+    font-size: large;
+}
