@@ -1,0 +1,26 @@
+:root{ /* function */
+    --box-color: rgb(4, 4, 19);
+}
+.container{
+    background-color: aqua;
+    border: 1px solid black;
+    height: 500px;
+    width: 500px;
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+.box{
+    margin: 30px;
+    background-color: var(--box-color);
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+    color: white;
+    transition: all 5s ease-out 0.5s,transform 5s;
+}
+.box:hover{
+    background-color: rgb(173, 2, 2);
+    
+    transform: translate(500px) rotate(360deg);
+}
