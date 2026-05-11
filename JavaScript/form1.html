@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input,select,textarea{
+            display: block;
+            margin: 20px;
+        }
+        small{
+            font-size: 10px;
+            color: red;
+        }
+        #hide{
+            display: none;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+
+        <input type="text" placeholder="name" id="name">
+        <div id="hide">
+            <br>
+            <small>name character should be more than 2 </small>
+        </div>
+        <input type="email" placeholder="email">
+        <select>
+            <option>male</option>
+            <option>female</option>
+            <option>others</option>
+        </select>
+        <textarea placeholder="tell us about you"></textarea>
+        <input type="submit">
+    </form>
+
+    <script src="./form1.js"></script>
+</body>
+</html>
